@@ -1,0 +1,22 @@
+﻿Build started 2/5/2024 9:37:02 PM.
+     1>Project "D:\1.2\CSE SD Project\RSM on the way--v.1.1\RSM On The Way.FV\RSM On The Way.FV.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\k\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt iMain.cpp
+         iMain.cpp
+     1>e:\k\vc\include\utility(88): warning C4351: new behavior: elements of array 'std::pair<char [50],int>::first' will be default initialized
+                 e:\k\vc\include\utility(86) : while compiling class template member function 'std::pair<char [50],int>::pair(void)'
+                 d:\1.2\cse sd project\rsm on the way--v.1.1\rsm on the way.fv\score.h(36) : see reference to function template instantiation 'std::pair<char [50],int>::pair(void)' being compiled
+                 d:\1.2\cse sd project\rsm on the way--v.1.1\rsm on the way.fv\score.h(36) : see reference to class template instantiation 'std::pair<char [50],int>' being compiled
+       Link:
+         E:\k\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1.2\CSE SD Project\RSM on the way--v.1.1\Debug\RSM On The Way.FV.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\1.2\CSE SD Project\RSM on the way--v.1.1\Debug\RSM On The Way.FV.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1.2\CSE SD Project\RSM on the way--v.1.1\Debug\RSM On The Way.FV.lib" /MACHINE:X86 Debug\iMain.obj
+         Glaux.lib
+         GLU32.LIB
+         glui32.lib
+         glut32.lib
+         OPENGL32.LIB
+         RSM On The Way.FV.vcxproj -> D:\1.2\CSE SD Project\RSM on the way--v.1.1\Debug\RSM On The Way.FV.exe
+     1>Done Building Project "D:\1.2\CSE SD Project\RSM on the way--v.1.1\RSM On The Way.FV\RSM On The Way.FV.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.13
